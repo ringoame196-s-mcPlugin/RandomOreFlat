@@ -14,8 +14,8 @@ class RandomOreFlatWorldChunkGenerator : ChunkGenerator() {
         Material.LAPIS_ORE to 0.02,
         Material.REDSTONE_ORE to 0.02,
         Material.DIAMOND_ORE to 0.01,
-        Material.LAVA to 0.05,
-        Data.explosionBlock to 0.05,
+        Material.LAVA to 0.06,
+        Material.BEDROCK to 0.04,
         Material.COBBLED_DEEPSLATE to 0.3,
         Material.STONE to 0.45
     )
