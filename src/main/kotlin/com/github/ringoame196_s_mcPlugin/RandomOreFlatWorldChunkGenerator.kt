@@ -8,16 +8,16 @@ import kotlin.random.Random
 class RandomOreFlatWorldChunkGenerator : ChunkGenerator() {
     private val rawBlockChances = mapOf<Material, Double>(
         // 生成ブロック to 生成確率(合計1.0)
-		Material.COAL_ORE to 0.08,
-        Material.IRON_ORE to 0.06,
-        Material.GOLD_ORE to 0.05,
-        Material.LAPIS_ORE to 0.04,
-        Material.REDSTONE_ORE to 0.03,
-        Material.NETHERITE_BLOCK to 0.02,
-        Material.LAVA to 0.08, // ある程度確保
-        Data.explosionBlock to 0.05, // ある程度確保
-        Material.COBBLED_DEEPSLATE to 0.15,
-        Material.STONE to 0.54
+        Material.COAL_ORE to 0.04,
+        Material.IRON_ORE to 0.03,
+        Material.GOLD_ORE to 0.03,
+        Material.LAPIS_ORE to 0.02,
+        Material.REDSTONE_ORE to 0.02,
+        Material.DIAMOND_ORE to 0.01,
+        Material.LAVA to 0.05,
+        Data.explosionBlock to 0.05,
+        Material.COBBLED_DEEPSLATE to 0.3,
+        Material.STONE to 0.45
     )
 
     override fun generateChunkData(
@@ -35,6 +35,7 @@ class RandomOreFlatWorldChunkGenerator : ChunkGenerator() {
                 for (centerY in 0..10) {
                     setRandomBlock(chunk, centerX, centerY, centerZ)
                 }
+                chunk.setBlock(centerX, 11, centerZ, Material.STONE)
             }
         }
 
