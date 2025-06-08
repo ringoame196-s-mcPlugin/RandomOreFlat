@@ -8,6 +8,7 @@ class Main : JavaPlugin() {
     private val plugin = this
     override fun onEnable() {
         super.onEnable()
+        RandomOreFlatWorldManager.createWorld()
         server.pluginManager.registerEvents(Events(), plugin)
         val command = getCommand("randomoreflat")
         command!!.setExecutor(Command())
