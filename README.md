@@ -1,5 +1,9 @@
 # RandomOreFlat
 
+
+https://github.com/user-attachments/assets/385f843c-a899-413b-ab70-aff9393ba326
+
+
 ## プラグイン説明
 鉱石を取ることができるフラットワールドを追加する
 
