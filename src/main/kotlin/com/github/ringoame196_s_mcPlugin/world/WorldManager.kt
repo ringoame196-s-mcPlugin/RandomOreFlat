@@ -1,4 +1,4 @@
-package com.github.ringoame196_s_mcPlugin
+package com.github.ringoame196_s_mcPlugin.world
 
 import org.bukkit.ChatColor
 import org.bukkit.World

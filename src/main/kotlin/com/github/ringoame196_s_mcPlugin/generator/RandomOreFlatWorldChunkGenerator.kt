@@ -1,8 +1,9 @@
-package com.github.ringoame196_s_mcPlugin
+package com.github.ringoame196_s_mcPlugin.generator
 
 import org.bukkit.Material
 import org.bukkit.World
 import org.bukkit.generator.ChunkGenerator
+import kotlin.collections.iterator
 import kotlin.random.Random
 
 class RandomOreFlatWorldChunkGenerator : ChunkGenerator() {

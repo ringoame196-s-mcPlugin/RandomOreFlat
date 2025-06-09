@@ -1,7 +1,7 @@
 package com.github.ringoame196_s_mcPlugin.commands
 
-import com.github.ringoame196_s_mcPlugin.Data
-import com.github.ringoame196_s_mcPlugin.WorldManager
+import com.github.ringoame196_s_mcPlugin.util.Data
+import com.github.ringoame196_s_mcPlugin.world.WorldManager
 import org.bukkit.Bukkit
 import org.bukkit.ChatColor
 import org.bukkit.command.Command
